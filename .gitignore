@@ -1,0 +1,25 @@
+# Dependências Rust
+backend/target/
+frontend/src-tauri/target/
+
+# Dependências Node
+frontend/node_modules/
+
+# Build Angular
+frontend/dist/
+
+# Cache Angular
+frontend/.angular/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

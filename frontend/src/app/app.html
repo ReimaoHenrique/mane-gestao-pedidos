@@ -1,0 +1,31 @@
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h1 class="logo">🍔 Mané</h1>
+      <span class="subtitle">Gestão de Pedidos</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a routerLink="/pedidos" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">📋</span>
+        <span class="nav-text">Pedidos</span>
+      </a>
+      <a routerLink="/novo-pedido" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">➕</span>
+        <span class="nav-text">Novo Pedido</span>
+      </a>
+      <a routerLink="/acompanhar" routerLinkActive="active" class="nav-link">
+        <span class="nav-icon">🔍</span>
+        <span class="nav-text">Acompanhar por PIN</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <span>© 2026 Mané</span>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <router-outlet />
+  </main>
+</div>
